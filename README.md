@@ -1,4 +1,4 @@
-# Environemnt
+# Environment
 Sample project for writable properties
 
 curl http://localhost:8080/actuator/env/foo
