@@ -5,7 +5,7 @@ import org.springframework.boot.actuate.trace.http.HttpTraceRepository;
 import org.springframework.boot.actuate.trace.http.InMemoryHttpTraceRepository;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-
+ 
 @SpringBootApplication
 public class EnvironmentApplication {
 
@@ -17,4 +17,7 @@ public class EnvironmentApplication {
     public HttpTraceRepository htttpTraceRepository() {
         return new InMemoryHttpTraceRepository();
     }
+	
+ 
+
 }
